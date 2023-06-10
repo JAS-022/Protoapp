@@ -1,0 +1,378 @@
+.whitespace {
+  width: 2% !important;
+}
+
+@media (min-width: 1024px) {
+  body {
+    display: flex;
+    place-items: center;
+    background: url("src/assets/img/bg-leaves.svg") top left no-repeat, url("src/assets/img/bg-decals.svg") top 55% left -105% no-repeat, url("src/assets/img/bg-decals2.svg") top 410% right no-repeat, url("src/assets/img/bg-decals3.svg") top 742% right no-repeat;
+    background-size: 100%, auto, auto, auto;
+    height: 100vh;
+  }
+  #app {
+    /* display: grid; */
+    /* grid-template-columns: 1fr 1fr; */
+    padding: 0 2rem;
+    margin-top: 65%;
+  }
+  header {
+    display: flex;
+    place-items: center;
+    padding-right: calc(var(--section-gap) / 2);
+    line-height: 1.5;
+  }
+  header .wrapper {
+    display: flex;
+    place-items: flex-start;
+    flex-wrap: wrap;
+  }
+  .footer {
+    display: flex;
+    background-color: #393741;
+    height: 300px;
+    width: 100%;
+    width: -webkit-fill-available;
+    left: 0;
+    margin-top: 20%;
+    position: absolute;
+    padding: 2rem 5rem 2rem 5rem;
+    color: white;
+  }
+  .footer__description--first {
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .footer__description--second {
+    font-size: 18px;
+  }
+  .footer__description--third {
+    font-size: 15px;
+    line-height: 2;
+  }
+  .footer__description--copyright {
+    margin-left: 50px;
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  .logo {
+    margin: 0 2rem 0 0;
+    display: block;
+    margin: 0 auto 2rem;
+  }
+  .logo__footer {
+    text-align: right !important;
+  }
+  nav {
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+  }
+  .navbar__link--home {
+    color: black !important;
+  }
+  hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+  }
+  .getstarted {
+    height: 100vh;
+    width: 100%;
+    display: inline-block;
+    margin: 150% 0 0 0;
+  }
+  .getstarted__title {
+    font-size: 55px;
+    font-weight: 300;
+  }
+  .getstarted__content {
+    margin-bottom: 15%;
+  }
+  .getstarted__content--description {
+    width: 1024px;
+    font-size: 20px;
+    font-weight: 300;
+  }
+  .getstarted__img--playstore {
+    text-align: right;
+  }
+  .getstarted__img--appstore {
+    text-align: left;
+  }
+  .meetprotoapp__description {
+    margin-bottom: 15%;
+  }
+  .meetprotoapp__description--1 {
+    font-weight: 300;
+    width: 60%;
+  }
+  .meetprotoapp__title {
+    font-weight: 700;
+  }
+  .meetprotoapp__items {
+    margin-bottom: 10%;
+  }
+  .meetprotoapp__items__description {
+    font-weight: 300;
+  }
+  .meetprotoapp__items--discover {
+    text-align: right;
+  }
+  .meetprotoapp__items--augmentedsvg {
+    text-align: right;
+  }
+  .meetprotoapp__items--endless {
+    text-align: right;
+  }
+  .meetprotoapp__img {
+    width: 300px;
+    height: 300px;
+  }
+  .deepdive {
+    background-color: rgb(59, 59, 231);
+    color: white;
+    /* width: 1024px; */
+    padding: 100px;
+    position: absolute;
+    width: -webkit-fill-available;
+    left: 0;
+  }
+  .deepdive__title {
+    font-weight: 700;
+  }
+  .deepdive__description {
+    font-weight: 300;
+  }
+  .deepdive__img--playstore {
+    text-align: right;
+  }
+  .deepdive__img--appstore {
+    text-align: left;
+  }
+  .calltoaction {
+    margin-top: 40%;
+  }
+  .calltoaction__card--automation {
+    background-color: rgb(243, 194, 47) !important;
+    color: white !important;
+    width: 49% !important;
+  }
+  .calltoaction__card__description--rollout {
+    font-size: 14px;
+    font-weight: 300;
+  }
+  .calltoaction__card__description--automatic {
+    font-weight: 700;
+  }
+  .calltoaction__card__description--automatic--desc {
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 1.5;
+  }
+  .calltoaction__card__description--sipcoffee {
+    font-size: 14px;
+    font-weight: 300;
+  }
+  .calltoaction__card__description--complexity {
+    font-weight: 700;
+  }
+  .calltoaction__card__description--complexity--desc {
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 1.5;
+  }
+  .calltoaction__card--simplicity {
+    background-color: rgba(7, 138, 141, 0.785) !important;
+    color: white !important;
+    width: 49% !important;
+  }
+  .calltoaction__card__label--automation {
+    border: 3px solid rgb(243, 194, 47);
+    border-radius: 15px;
+    background-color: rgba(20, 18, 18, 0.277);
+    color: white;
+    margin-top: 15%;
+    width: 70%;
+    padding: 3px 0 3px 0;
+    font-size: 14px;
+    font-weight: 700;
+  }
+  .calltoaction__card__label--simplicity {
+    border: 3px solid rgba(7, 138, 141, 0.785);
+    border-radius: 15px;
+    background-color: rgba(20, 18, 18, 0.277);
+    color: white;
+    margin-top: 15%;
+    width: 70%;
+    padding: 3px 0 3px 0;
+    font-size: 14px;
+    font-weight: 700;
+  }
+  .calltoaction__card__img {
+    height: 180px;
+    width: 180px;
+  }
+}
+@media (max-width: 500px) {
+  body {
+    background: url(src/assets/img/bg-leaves.svg) top left no-repeat, url(src/assets/img/bg-decals.svg) top 10% left 8% no-repeat, url(src/assets/img/bg-decals2.svg) top 56% right no-repeat, url(src/assets/img/bg-decals3.svg) top 103% right no-repeat;
+    background-size: 100%, auto, auto, auto;
+  }
+  .whitespace {
+    width: auto;
+  }
+  nav {
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+  }
+  .footer {
+    display: flex;
+    background-color: #393741;
+    height: 300px;
+    width: 100%;
+    width: -webkit-fill-available;
+    left: 0;
+    margin-top: 20%;
+    position: absolute;
+    padding: 0;
+    color: white;
+  }
+  .footer__description--first {
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .footer__description--second {
+    font-size: 18px;
+  }
+  .footer__description--third {
+    font-size: 15px;
+  }
+  .footer__description--copyright {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  .logo {
+    margin: 0 2rem 0 0;
+    display: block;
+    margin: 0 auto 2rem;
+  }
+  .logo__footer {
+    padding-top: 20px;
+  }
+  .getstarted {
+    width: 300px;
+    display: inline-block;
+    margin: 30% 0 0 0;
+  }
+  .getstarted__content--description {
+    width: 300px;
+  }
+  .meetprotoapp {
+    margin-bottom: 30px;
+  }
+  .meetprotoapp__description {
+    margin-bottom: 15%;
+  }
+  .meetprotoapp__description--1 {
+    font-weight: 300;
+    font-size: 14px;
+  }
+  .meetprotoapp__title {
+    font-weight: 700;
+  }
+  .meetprotoapp__items {
+    margin-bottom: 10%;
+  }
+  .meetprotoapp__items__description {
+    font-weight: 300;
+    font-size: 15px;
+  }
+  .meetprotoapp__items--discover {
+    text-align: right;
+  }
+  .meetprotoapp__items--augmentedsvg {
+    text-align: right;
+  }
+  .meetprotoapp__items--endless {
+    text-align: right;
+  }
+  .meetprotoapp__img {
+    width: 150px;
+    height: 150px;
+  }
+  .deepdive {
+    background-color: rgb(59, 59, 231);
+    color: white;
+    padding: 10px;
+    position: absolute;
+    width: -webkit-fill-available;
+    left: 0;
+  }
+  .deepdive__description {
+    font-weight: 300;
+    font-size: 15px;
+  }
+  .calltoaction {
+    margin-top: 40%;
+  }
+  .calltoaction__card--automation {
+    width: auto !important;
+    background-color: rgb(243, 194, 47) !important;
+    color: white !important;
+    margin-bottom: 10px;
+  }
+  .calltoaction__card__description--rollout {
+    font-size: 10px;
+  }
+  .calltoaction__card__description--automatic {
+    font-size: 14px;
+  }
+  .calltoaction__card__description--automatic--desc {
+    font-size: 12px;
+  }
+  .calltoaction__card__description--sipcoffee {
+    font-size: 10px;
+  }
+  .calltoaction__card__description--complexity {
+    font-size: 14px;
+  }
+  .calltoaction__card__description--complexity--desc {
+    font-size: 12px;
+  }
+  .calltoaction__card--simplicity {
+    width: auto !important;
+    background-color: rgba(7, 138, 141, 0.785) !important;
+    color: white !important;
+  }
+  .calltoaction__card__label--automation {
+    border: 3px solid rgb(243, 194, 47);
+    border-radius: 15px;
+    background-color: rgba(20, 18, 18, 0.277);
+    color: white;
+    margin-top: 15%;
+    width: auto;
+    padding: 3px 0 3px 0;
+    font-size: 10px;
+    font-weight: 700;
+  }
+  .calltoaction__card__label--simplicity {
+    border: 3px solid rgba(7, 138, 141, 0.785);
+    border-radius: 15px;
+    background-color: rgba(20, 18, 18, 0.277);
+    color: white;
+    margin-top: 15%;
+    width: auto;
+    padding: 3px 0 3px 0;
+    font-size: 10px;
+    font-weight: 700;
+  }
+  .calltoaction__card__img {
+    height: 100px;
+    width: 100px;
+  }
+}/*# sourceMappingURL=styles.css.map */
